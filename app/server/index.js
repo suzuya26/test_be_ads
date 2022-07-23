@@ -8,6 +8,7 @@ const app = express();
 app.use(morgan("dev"));
 
 /** Install JSON request parser */
+app.use(express.urlencoded({ extended: true }))
 app.use(express.json());
 
 /** Install Router */
