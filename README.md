@@ -1,5 +1,8 @@
+## Setelah pertama kali clone repos
+`npm i`
+
 ## mulai server secara local
-yarn develop
+`yarn develop`
 
 ## Database Management
 
