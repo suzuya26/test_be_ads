@@ -12,7 +12,7 @@ apiRouter.delete('/delete-asset-from-cloud',controllers.api.v1.productAssetsCont
 apiRouter.post('/upload-product',controllers.api.v1.productController.uploadProduct);
 apiRouter.post('/edit-product/:id',controllers.api.v1.productController.editProduct);
 apiRouter.get('/get-all-products',controllers.api.v1.productController.getAllProducts);
-apiRouter.get('/get-products/:id',controllers.api.v1.productController.getProductsById);
+apiRouter.get('/get-product/:id',controllers.api.v1.productController.getProductsById);
 apiRouter.delete('/delete-product/:id',controllers.api.v1.productController.deleteProduct);
 
 apiRouter.post('/add-asset/:idproduct',controllers.api.v1.productAssetsController.addAsset);

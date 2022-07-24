@@ -50,7 +50,8 @@ module.exports = {
     try {
       const id_product = req.params.idproduct
       const cekProduct = await Products.findOne({
-        where : {id:id_product}
+        where : {id:id_product},
+        include : ['asset','kategori'],
       })
       if(!cekProduct){
         return res.status(404).json("tidak ditemukan produk terkait")
