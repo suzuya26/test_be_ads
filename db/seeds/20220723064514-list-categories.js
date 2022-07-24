@@ -12,11 +12,11 @@ module.exports = {
      * }], {});
     */
      await queryInterface.bulkInsert('Categories',[
-      {nama : 'Elektronik'}, 
-      {nama : 'Fashion Pria'}, 
-      {nama : 'Fashion Wanita'}, 
-      {nama : 'Handphone & Tablet'}, 
-      {nama : 'Olahraga'}, 
+      {name : 'Elektronik'}, 
+      {name : 'Fashion Pria'}, 
+      {name : 'Fashion Wanita'}, 
+      {name : 'Handphone & Tablet'}, 
+      {name : 'Olahraga'}, 
     ])
   },
 

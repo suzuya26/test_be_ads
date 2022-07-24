@@ -11,12 +11,12 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      Product_assets.belongsTo(models.Products, {foreignKey:'id',as:'asset'});
     }
   }
   Product_assets.init({
     product_id: DataTypes.INTEGER,
-    namefile:DataTypes.STRING,
-    url: DataTypes.TEXT
+    image: DataTypes.TEXT
   }, {
     sequelize,
     modelName: 'Product_assets',

@@ -11,10 +11,7 @@ module.exports = {
       product_id: {
         type: Sequelize.INTEGER
       },
-      namefile: {
-        type: Sequelize.STRING
-      },
-      url: {
+      image: {
         type: Sequelize.TEXT
       },
       createdAt: {
