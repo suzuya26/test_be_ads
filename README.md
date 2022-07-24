@@ -1,6 +1,6 @@
 ## Setelah pertama kali clone repos
 `npm i`
-
+## Mohon ganti database.js di folder config dengan username dan password postgresql masing masing 
 ## mulai server secara local
 `yarn develop`
 
@@ -14,3 +14,5 @@ Di dalam repository ini sudah terdapat beberapa script yang dapat digunakan dala
 - `yarn db:seed` digunakan untuk melakukan seeding
 - `yarn db:rollback` digunakan untuk membatalkan migrasi terakhir
 
+## Lampiran soal Test Case Junior Back End Developer ADS X MBKM
+# 1
